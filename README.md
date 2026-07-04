@@ -2,16 +2,35 @@
 
 九州工業大学院 M1 / 福岡 / 個人開発・AI活用
 
+Next.js × Firebase × AI でゼロイチを作る。
+
 ---
 
-## 🔭 What I'm building
+## 🚀 メインプロジェクト — Days Count in AUS
+
+**ワーホリ365日で人生変える。** 毎日を英語で記録して、仲間と成長を共有するジャーナルSNS（PWA）。
+
+**🌏 本番稼働中: [days-count.com](https://days-count.com)** ／ 📦 [リポジトリ](https://github.com/communitybrisbane/days_count_aus)（350+ commits）
+
+| | |
+|---|---|
+| **主な機能** | 日数カウント / 投稿・いいね・フォロー / XPとレベル / グループチャット / ライブミーティング / プッシュ通知（FCM） |
+| **フロント** | Next.js (App Router) / TypeScript / Tailwind CSS v4 / Framer Motion |
+| **バックエンド** | Firebase（Auth / Firestore / Storage / Cloud Functions ×11 / FCM） |
+| **セキュリティ** | Firestore・Storageセキュリティルール / App Check / サーバー側レート制限・XP付与 / コンテンツモデレーション |
+| **運用** | Vercel / Sentry（エラー監視）/ GitHub Actions（npm audit 定期実行） |
+
+仕様策定 → 設計 → 実装 → セキュリティ → 監視・運用まで、一人で全工程を担当。
+
+---
+
+## 🔭 その他のプロジェクト
 
 | プロジェクト | 概要 | スタック |
 |---|---|---|
-| [community-count-aus](https://github.com/communitybrisbane/community-count-aus) | ワーホリ生活を「ゲーム化」して攻略する Web アプリ。クエスト管理・ギルドチャット・進捗ログ。99コミット | Vite + React + TypeScript + Firebase |
-| [days_count_aus](https://github.com/communitybrisbane/days_count_aus) | ワーホリの滞在日数を視覚化するアプリ。本番稼働中 | Next.js + TypeScript |
-| [days-count-lp](https://github.com/communitybrisbane/days-count-lp) | 上記アプリのランディングページ | Next.js + TypeScript |
-| [community-brisbane-2.github.io](https://github.com/communitybrisbane/community-brisbane-2.github.io) | ブリスベンワーホリ完全ガイド。214コミット | TypeScript |
+| [days-count-lp](https://github.com/communitybrisbane/days-count-lp) | Days Count のランディングページ | Next.js + TypeScript |
+| [community-count-aus](https://github.com/communitybrisbane/community-count-aus) | ワーホリ生活を「ゲーム化」して攻略するWebアプリ（Days Count の前身） | Vite + React + TypeScript + Firebase |
+| [community-brisbane-2.github.io](https://github.com/communitybrisbane/community-brisbane-2.github.io) | ブリスベンワーホリ完全ガイド | TypeScript |
 | [count.eng](https://github.com/communitybrisbane/count.eng) | 「THE BRISBANE GAME」— ワーホリ365日間の記録（EN/JP） | HTML / CSS / JS |
 | [home](https://github.com/communitybrisbane/home) | 個人HP | HTML / CSS / JS |
 
@@ -23,10 +42,10 @@
 TypeScript / React / Next.js / Vite / Tailwind CSS / HTML5・CSS3
 
 **Backend / Infra**
-Firebase (Auth / Firestore / Storage) / Vercel / GitHub Pages
+Firebase (Auth / Firestore / Storage / Cloud Functions / FCM) / Vercel / GitHub Pages / GitHub Actions
 
 **ツール**
-Bun / Git / AI 開発（Claude Code, ChatGPT 等）
+Bun / Git / Sentry / AI 開発（Claude Code, ChatGPT 等）
 
 ---
 
