@@ -29,7 +29,6 @@ Next.js × Firebase × AI でゼロイチを作る。
 | プロジェクト | 概要 | スタック |
 |---|---|---|
 | [days-count-lp](https://github.com/communitybrisbane/days-count-lp) | Days Count のランディングページ | Next.js + TypeScript |
-| [community-brisbane-2.github.io](https://github.com/communitybrisbane/community-brisbane-2.github.io) | ブリスベンワーホリ完全ガイド | TypeScript |
 | [count.eng](https://github.com/communitybrisbane/count.eng) | 「THE BRISBANE GAME」— ワーホリ365日間の記録（EN/JP） | HTML / CSS / JS |
 | [home](https://github.com/communitybrisbane/home) | 個人HP | HTML / CSS / JS |
 
